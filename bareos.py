@@ -1,9 +1,11 @@
-#! /usr/bin/env python
+#! /usr/bin/env python2
 # Author: Sotirios Roussis - xtonousou
 # Description: Zabbix LLD Template for Bareos. Works via bareos-webui with HTTP and not via bconsole.
 # Dependencies: requests
-# Usage: python bareos.py
+# Usage: python2 bareos.py
 # Notes: Backup statuses: js/custom-functions.js
+# Tested: Centos 7
+# Version: 1.0.0
 
 import requests
 from json import dumps
